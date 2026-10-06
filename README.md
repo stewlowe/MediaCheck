@@ -6,6 +6,12 @@ It scans ordinary media folders with FFprobe and FFmpeg, so it can be used along
 
 > MediaCheck never renames, moves, repairs, or deletes your media files.
 
+## See what a result means
+
+![MediaCheck issue review showing a warning, its likely playback impact, and suggested next steps](assets/issue-explanation.png)
+
+This privacy-safe demonstration uses sample filenames. MediaCheck separates the technical evidence from a plain-language explanation, likely playback impact, and conservative next steps.
+
 ## Download the beta
 
 [Download MediaCheck 0.15.0 Beta](../../releases/tag/v0.15.0-beta)
