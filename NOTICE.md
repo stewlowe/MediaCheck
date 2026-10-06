@@ -1,6 +1,6 @@
 # Distribution notice
 
-Copyright © 2026 Stewart Lowe. All rights reserved.
+MediaCheck is distributed as proprietary beta software. All rights reserved.
 
 This repository provides documentation and downloadable beta releases of MediaCheck. No license to copy, modify, redistribute, reverse engineer, or create derivative works from the MediaCheck application is granted except where applicable law requires otherwise.
 
