@@ -8,7 +8,7 @@ It scans ordinary media folders with FFprobe and FFmpeg, so it can be used along
 
 ## Download the beta
 
-[Download the latest MediaCheck release](../../releases/latest)
+[Download MediaCheck 0.15.0 Beta](../../releases/tag/v0.15.0-beta)
 
 The current public beta supports 64-bit Windows 11. The installer is not digitally signed yet, so Windows SmartScreen may identify it as an unrecognized application. Every release includes a SHA-256 checksum so the installer can be verified after download.
 
