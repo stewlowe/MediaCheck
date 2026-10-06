@@ -1,22 +1,23 @@
-# MediaCheck 0.15.0 Beta
+# MediaCheck 0.15.1 Beta
 
-## Beta-readiness improvements
+## Issue-review improvements
 
-- Added one-time **What's new** notes after an upgrade.
-- Added a manual, HTTPS-only update-checking framework. It never silently downloads or installs software.
-- Added a recovery window for unexpected interface errors with Continue, Diagnostics, and copy-details actions.
-- Expanded automated coverage for update safety, interrupted work, large libraries, and settings compatibility.
+- Enlarged the inline Issue details area and added a draggable divider.
+- Added **Expand details view…** beside the Issue details heading for a separate resizable reading window.
+- Added playback testing and structured feedback recording for flagged files.
+- Issue-report exports now include playback observations, tester severity, notes, container, and codecs.
 
-## Existing highlights
+## Decode-location guidance
 
-- Read-only quick and deep health checks using FFprobe and FFmpeg
-- Fast reuse of unchanged scan results
-- Multiple library locations across local, removable, and network storage
-- Plain-language issue guidance and focused issue rechecks
-- Persistent Reviewed and Ignored issue states
-- Scan history and change reports
-- Fast duplicate candidates, full byte verification, and frame comparison
-- Privacy-conscious diagnostics and support-bundle export
+- Deep checks now record FFmpeg's last reported decode position and identify approximately where playback should be inspected.
+- A missing FFmpeg timestamp is explicitly reported as **Decode error location: unavailable** instead of being confused with a genuine error at `0:00:00`.
+- Plain-language guidance explains what the location means and what to check.
+
+## Other refinements
+
+- Added a dedicated pause/enable action for individual library locations.
+- Improved issue-pane sizing and button placement on common Windows displays.
+- Expanded automated coverage to 79 passing tests.
 
 ## Known beta limitations
 
@@ -30,4 +31,4 @@
 
 SHA-256:
 
-`2EBB1DC7D2A94E4C312A9E48043F592C0336E4A6FF4BAD248B1CD84CF597B06A`
+`E5193AAB32E288324E0E37729C479E12F2BC7CC00D04A7FADC123FCCE62DFB17`
