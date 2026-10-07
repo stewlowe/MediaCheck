@@ -14,7 +14,7 @@ This privacy-safe demonstration uses sample filenames. MediaCheck separates the 
 
 ## Download the beta
 
-[Download MediaCheck 0.15.1 Beta](../../releases/tag/v0.15.1-beta)
+[Download MediaCheck 0.15.2 Beta](../../releases/tag/v0.15.2-beta)
 
 The current public beta supports 64-bit Windows 11. The installer is not digitally signed yet, so Windows SmartScreen may identify it as an unrecognized application. Every release includes a SHA-256 checksum so the installer can be verified after download.
 
@@ -31,6 +31,7 @@ The current public beta supports 64-bit Windows 11. The installer is not digital
 - Scan history and change reports
 - Duplicate candidates, full byte verification, and preview-frame comparison
 - Privacy-conscious diagnostic and support-bundle export
+- In-app feedback instructions and a direct link to the official report form
 
 ## Requirements
 
@@ -48,11 +49,11 @@ MediaCheck is beta software. Keep normal backups and never use a scan result as 
 
 ## Feedback and bug reports
 
-Use [GitHub Issues](../../issues) to report confusing results, possible false positives, performance problems, display issues, or crashes. Please review [SUPPORT.md](SUPPORT.md) before attaching a diagnostic bundle.
+Select **Send feedback** in MediaCheck or use the [GitHub report form](../../issues/new/choose) to report confusing results, possible false positives, performance problems, display issues, or crashes. Nothing is submitted automatically. Please review [SUPPORT.md](SUPPORT.md) before attaching a diagnostic bundle.
 
 ## Development disclosure
 
-MediaCheck was built through an iterative process with substantial AI coding assistance under human direction and hands-on Windows testing. Version 0.15.1 includes 79 automated tests.
+MediaCheck was built through an iterative process with substantial AI coding assistance under human direction and hands-on Windows testing. Version 0.15.2 includes 79 automated tests.
 
 ## Source availability
 

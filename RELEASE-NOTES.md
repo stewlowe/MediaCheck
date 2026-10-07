@@ -1,4 +1,11 @@
-# MediaCheck 0.15.1 Beta
+# MediaCheck 0.15.2 Beta
+
+## Feedback and support
+
+- Added a prominent **Send feedback** button that opens the official GitHub report form.
+- Added clear instructions for reporting a problem and optionally attaching an inspected support bundle.
+- Clarified that reports are never sent automatically and that media files should never be attached.
+- Added the same feedback guidance to Diagnostics and the downloadable beta package.
 
 ## Issue-review improvements
 
@@ -31,4 +38,4 @@
 
 SHA-256:
 
-`E5193AAB32E288324E0E37729C479E12F2BC7CC00D04A7FADC123FCCE62DFB17`
+`986CD0CD6A91ABD7EFAFCCA5F3D769313405A00D236019E039DF62CA93D47C0D`

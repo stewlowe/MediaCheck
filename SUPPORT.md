@@ -8,6 +8,8 @@ Before reporting a problem, please include:
 - Whether the problem can be repeated
 - The approximate library size and storage type, without posting private paths
 
+Select **Send feedback** in MediaCheck or open the [GitHub report form](../../issues/new/choose), then choose **Bug report**. Nothing is uploaded or submitted automatically; you decide exactly what to share.
+
 ## Creating a support bundle
 
 1. Open MediaCheck.
