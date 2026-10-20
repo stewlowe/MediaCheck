@@ -12,15 +12,22 @@ It scans ordinary media folders with FFprobe and FFmpeg, so it can be used along
 
 This privacy-safe demonstration uses sample filenames. MediaCheck separates the technical evidence from a plain-language explanation, likely playback impact, and conservative next steps.
 
+## Check new files before adding them
+
+![MediaCheck new-file preflight showing quick-check, review, and wait verdicts](assets/preflight-quick-check.png)
+
+Version 0.16 adds a temporary workspace for downloads, copies, recordings, and encodes that are not yet part of the permanent library. A quick check examines structure and stream metadata. The optional full decode reads the entire primary video stream. MediaCheck clearly distinguishes the two so a quick inspection is never presented as a complete frame-by-frame verification.
+
 ## Download the beta
 
-[Download MediaCheck 0.15.2 Beta](../../releases/tag/v0.15.2-beta)
+[Download MediaCheck 0.16.0 Beta](../../releases/tag/v0.16.0-beta)
 
 The current public beta supports 64-bit Windows 11. The installer is not digitally signed yet, so Windows SmartScreen may identify it as an unrecognized application. Every release includes a SHA-256 checksum so the installer can be verified after download.
 
 ## Highlights
 
 - Quick FFprobe health checks and optional full video decoding
+- Temporary new-file preflight checks kept separate from library history
 - Multiple library locations across local, removable, and network storage
 - Fast refreshes that reuse unchanged scan results
 - Healthy, Warning, and Problem classifications
@@ -53,7 +60,7 @@ Select **Send feedback** in MediaCheck or use the [GitHub report form](../../iss
 
 ## Development disclosure
 
-MediaCheck was built through an iterative process with substantial AI coding assistance under human direction and hands-on Windows testing. Version 0.15.2 includes 79 automated tests.
+MediaCheck was built through an iterative process with substantial AI coding assistance under human direction and hands-on Windows testing. Version 0.16.0 includes 85 automated tests.
 
 ## Source availability
 

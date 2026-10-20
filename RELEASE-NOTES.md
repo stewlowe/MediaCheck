@@ -1,30 +1,28 @@
-# MediaCheck 0.15.2 Beta
+# MediaCheck 0.16.0 Beta
 
-## Feedback and support
+## Check new files before adding them
 
-- Added a prominent **Send feedback** button that opens the official GitHub report form.
-- Added clear instructions for reporting a problem and optionally attaching an inspected support bundle.
-- Clarified that reports are never sent automatically and that media files should never be attached.
-- Added the same feedback guidance to Diagnostics and the downloadable beta package.
+- Added **Check new files…**, a temporary workspace for downloads, copies, recordings, and encodes that are not yet part of the permanent library.
+- Accepts individual files or recursively scans a selected folder.
+- Detects files that still appear to be changing and asks the user to wait for the transfer to finish.
 
-## Issue-review improvements
+## Quick check or full decode
 
-- Enlarged the inline Issue details area and added a draggable divider.
-- Added **Expand details view…** beside the Issue details heading for a separate resizable reading window.
-- Added playback testing and structured feedback recording for flagged files.
-- Issue-report exports now include playback observations, tester severity, notes, container, and codecs.
+- A quick check examines file structure, duration, and audio/video stream metadata.
+- Full decode reads the entire primary video stream for stronger corruption detection.
+- Results distinguish **Quick check passed** from **Full check passed** instead of overstating what was verified.
 
-## Decode-location guidance
+## Temporary by design
 
-- Deep checks now record FFmpeg's last reported decode position and identify approximately where playback should be inspected.
-- A missing FFmpeg timestamp is explicitly reported as **Decode error location: unavailable** instead of being confused with a genuine error at `0:00:00`.
-- Plain-language guidance explains what the location means and what to check.
+- Preflight results do not enter the library cache, scan history, or persistent review states.
+- The preflight window supports cancellation, plain-language details, and CSV export.
+- MediaCheck remains read-only and never copies, moves, renames, repairs, or deletes media.
 
 ## Other refinements
 
-- Added a dedicated pause/enable action for individual library locations.
-- Improved issue-pane sizing and button placement on common Windows displays.
-- Expanded automated coverage to 79 passing tests.
+- The selected preflight mode is locked while a check is running so progress and verdicts cannot become misleading.
+- The preflight window now fits above the Windows taskbar on shorter displays, and its details section has its own scrollbar.
+- Expanded automated coverage to 85 passing tests.
 
 ## Known beta limitations
 
@@ -38,4 +36,4 @@
 
 SHA-256:
 
-`986CD0CD6A91ABD7EFAFCCA5F3D769313405A00D236019E039DF62CA93D47C0D`
+`736BBDD501287337F25A6728ED62C91AB29A836E1327B55B272F9C74D5F1F2D8`
